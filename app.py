@@ -5,7 +5,7 @@ import streamlit as st
 car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 
 st.header('Proyecto 6')
-st.write('Eliija el diagrama que desea crear')
+st.write('Marque la casilla de el diagrama que desea crear')
 
 hist_checkbox = st.checkbox('Construir histograma') # crear un botón       
 if hist_checkbox: # al hacer clic en el checkbox
